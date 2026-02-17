@@ -1,5 +1,3 @@
-# weather_app
-
 # Weather App 
 
 A Flutter application that simulates weather data for a searched city.  
