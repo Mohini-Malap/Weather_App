@@ -1,16 +1,39 @@
 # weather_app
 
-A new Flutter project.
+# Weather App 
 
-## Getting Started
+A Flutter application that simulates weather data for a searched city.  
+The app generates random temperature, humidity, wind speed, and weather conditions using Dart's Random class and displays them in a clean and responsive UI.
 
-This project is a starting point for a Flutter application.
+Features:
+- Search weather by city name
+- Randomly generated weather data
+- Displays:
+  - Temperature (°C)
+  - Humidity (%)
+  - Wind Speed (m/s)
+  - Weather condition (Sunny, Rainy, Cloudy, etc.)
+- Clean and modern UI using Material Design
+- Card-based weather display
+- Input validation (prevents empty search)
 
-A few resources to get you started if this is your first Flutter project:
+Technologies Used:
+- Flutter
+- Dart
+- Material Design Widgets
+- StatefulWidget
+- Dart Random Class
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+How It Works:
+- User enters a city name.
+- The app generates random:
+  - Temperature (10°C – 35°C)
+  - Humidity (30% – 100%)
+  - Wind Speed (0.5 – 10.5 m/s)
+  - Weather condition from predefined list
+- Weather data is displayed inside a styled Card widget.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Author: 
+Mohini Santosh Malap
+
+GitHub: https://github.com/Mohini-Malap/Weather_App
